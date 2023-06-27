@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn{
+    @apply flex items-center bg-primary text-white text-xl  rounded-xl     cursor-pointer tracking-wider;
+}
