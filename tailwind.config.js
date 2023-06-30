@@ -9,7 +9,11 @@ export default {
           colors:{
             primary: "#706FE5",
             secondary: "#EAEAFC"
-          }
+          },screens: {
+            'xs': {'min': '100px', 'max': '640px'},
+            'sm': {'min': '640px', 'max': '769px'},
+           
+          },
       },
     },
     plugins: [],

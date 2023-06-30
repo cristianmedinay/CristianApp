@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import { CrudForm } from './components/CrudForm';
 import { CrudTable } from './components/CrudTable';
 import { PropsDataUser } from '../src/interface/interface'
@@ -33,7 +33,7 @@ const CrudApp = () => {
 
   const createData = (data:any) => {
     data.id = Date.now();
-    setFormData((old)=> [...old,data]);
+    setFormData((old: any)=> [...old,data]);
   }
 
  
